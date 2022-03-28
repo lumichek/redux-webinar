@@ -6,7 +6,7 @@ Link to [presentation](https://docs.google.com/presentation/d/1RNIQDaJxhUf3eGF2q
 ## Themes
 - Redux
 - Base concepts: actions, actions creators, store, reducers
-- Hookes useDispatch, useSelector
+- Hooks useDispatch, useSelector
 - Redux Dev Tools
 - Middlewares
 - Redux thunk
