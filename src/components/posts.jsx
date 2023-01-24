@@ -1,17 +1,10 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-
-import { fetchPosts } from '../services/actions';
+import React from 'react';
+import { useSelector } from 'react-redux';
 
 import Post from './post';
 
 function Posts() {
-  const dispatch = useDispatch();
   const { loading, data, hasErrors } = useSelector((state) => state.posts);
-  console.log('render posts')
-  useEffect(() => {
-    dispatch(fetchPosts());
-  }, [dispatch]);
 
   return (
     <section>

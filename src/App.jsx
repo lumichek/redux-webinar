@@ -11,8 +11,8 @@ function App() {
   return (
     <Provider store={store}>
       <div className="content">
-        <Favorites />
         <Posts />
+        <Favorites />
       </div>
     </Provider>
   );
